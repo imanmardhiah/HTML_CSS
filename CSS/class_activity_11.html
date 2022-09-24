@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Activity</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            line-height: 1.4em;
+        } 
+        #background {
+            background: url(./meow.jpg) no-repeat center  center/cover;
+            height:900px;
+        }
+        ul {
+            padding-left: 75%;
+            padding-top: 10px;
+        }
+        li {
+            display: inline;
+            padding-left: 5px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        li a {
+            color: black;
+        }
+        
+        span {
+            background-color: mediumspringgreen;
+            padding: 3px;
+            
+            text-decoration: none; /* remove underline */
+        }
+        .container {
+            padding: 200px 50px;
+            margin-bottom: 315px;
+            position: relative;
+        }
+
+        .container h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 70px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+        .container #content {
+            margin-top: 20px; 
+            margin-left: 25%;
+            position: absolute;
+        }
+        .container #content p {
+            text-align: center;
+            border: black 2px solid;
+        }
+        #footer {
+            background-color: lightgray;
+            text-align: center;
+        }
+        #footer p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="background">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#"><span>Menu</span></a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+<div class="container">
+    <h1>Cat Cafe</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, rem?</p>
+    <div id="content" class="card">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, laboriosam.</p>
+    </div>
+</div>
+
+<div id="footer">
+    <p>Copyright &copy; 2022</p>
+</div>
+
+</div>
+</body>
+</html>

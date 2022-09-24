@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background and Border</title>
+    <style>
+        #home {
+            background-color: blanchedalmond;
+
+            border-color: salmon;
+            border-style: dotted;
+            border-width: 3px;
+            /* or */
+            border: sandybrown 3px dashed;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #about {
+            background-color: #fde1e1;
+            border-top: #ffc9c7 4px solid;
+            border-radius: 15px;
+            margin-bottom: 15px;
+        }
+
+        #contact {
+            background-image: url(./cat.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            /* or */
+            background: url(./cat.jpg) no-repeat center  center/cover;
+
+            width: 400px;
+            height: 400px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="home">
+        <h2>Home</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum inventore repellat incidunt quia sit aliquam est aspernatur reprehenderit ex.</p>
+    </div>
+
+    <div id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae voluptatem officiis aperiam sed architecto ipsa?</p>
+    </div>
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste veritatis ipsum, magnam quibusdam eaque quaerat amet adipisci facilis recusandae!</p>
+    </div>
+
+</body>
+</html>

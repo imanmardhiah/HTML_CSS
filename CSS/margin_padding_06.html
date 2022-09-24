@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and Padding</title>
+    <style>
+        /* reset default style - best practice */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* margin - outside the box content | padding - inside the box content */
+        .section {
+            background-color: seashell;
+            border: black 3px solid;
+
+            /* padding on all sides */
+            /* best practice same size for top and bottom & same size for left and right */
+            padding: 30px;
+
+            /* padding on different sides */
+            padding-top: 5px;
+            padding-bottom: 20px;
+            padding-right: 10px;
+            padding-left: 20px;
+
+            /* padding : top right bottom left */
+            padding: 10px 15px 10px 20px;
+
+            /* padding : top/bottom left/right */
+            padding: 30px 20px;
+
+            /* margin on all sides */
+            margin: 20px;
+
+            /* margin on different sides */
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 50px;
+            margin-bottom: 30px; /* most used */
+
+            /* margin : top right bottom left */
+            margin: 10px 20px 15px 10px;
+
+            /* margin o: top/bottom left/right */
+            margin: 30px 20px;
+
+            /* margin on left/right set to auto because that will make the position even */
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h2>Software Engineering</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sed?</p>
+    </div>
+    <div class="section">
+        <h2>Cyber Security</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, placeat.</p>
+    </div>
+</body>
+</html>
